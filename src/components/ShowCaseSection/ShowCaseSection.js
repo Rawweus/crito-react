@@ -2,6 +2,7 @@ import React from 'react'
 import "./ShowCaseSection.css";
 import Button from '../Generics/Button';
 import img_backgroundLines from "../../assets/images/background-lines.svg";
+import showcaseimage from '../../assets/images/showcase-image.svg'
 
 const ShowCaseSection = () => {
   return (
@@ -16,7 +17,7 @@ const ShowCaseSection = () => {
             <Button text="Learn More" url="/services/consulting" />
            
         </div>
-        <img src="image/showcase-image.svg" alt="image of a man in a suit with a tablet" />
+        <img src={showcaseimage} alt="image of a man in a suit with a tablet" />
     </div>
 </section>
   )

@@ -1,10 +1,12 @@
 import React from 'react'
 import "./NavSection.css";
+import Button from '../Generics/Button'
+import img_logo from '../../assets/images/logotype.svg'
 
 const NavSection = () => {
   return (
     <div className="container">
-    <a href="index.html"><img src="image/logotype.svg" alt="crito logotype" /></a>
+    <a href="index.html"><img src={img_logo} alt="crito logotype" /></a>
     <button className="menu-bars"><i className="fa-solid fa-bars-staggered"></i></button>
     <div className="menu">
         <div className="top-menu">
@@ -36,7 +38,7 @@ const NavSection = () => {
                 <a href="news.html">News</a>
                 <a href="contact.html">Contact</a>
             </nav>
-            <a className="btn-yellow" href="login.html">Login <i className="fa-solid fa-square-arrow-up-right"></i></a>
+            <Button text="Login" url="/services/login" />
         </div>
     </div>
 </div>
