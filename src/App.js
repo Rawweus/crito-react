@@ -1,15 +1,11 @@
 import "./App.css";
+import Header from "./components/Header/Header";
 
 function App() {
   return (
-  <>
-    <header>
-  <div>
-  <h1>Mitt React-Projekt</h1>
-  <p>Och här är min paragraf</p>
+    <div className="wrapper">
+      <Header />
     </div>
-    </header>
-  </>
   );
 }
 
