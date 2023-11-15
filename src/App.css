@@ -2,15 +2,16 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,900&family=Inter:wght@300;400;500;700;900&display=swap");
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    margin: 0;
-    color: #191919;
-    font-family: "Inter", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
+html,
+body {
+  margin: 0;
+  color: #191919;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .btn-yellow {
@@ -72,7 +73,6 @@ html, body {
   border: 1px solid #191919;
   color: #f9d783;
 }
-
 
 .section-title {
   padding-top: 70px;
@@ -191,7 +191,8 @@ header .container .menu .main-menu nav a {
 header .container .menu .main-menu nav a.active {
   font-weight: 500;
 }
-header .container .menu .main-menu nav a.active::after, header .container .menu .main-menu nav a:hover::after {
+header .container .menu .main-menu nav a.active::after,
+header .container .menu .main-menu nav a:hover::after {
   content: "";
   position: absolute;
   font-weight: 500;
@@ -797,10 +798,18 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
 .service-consulting .service-consulting-container .four-squares .square:hover {
   background-color: #f9d783;
 }
-.service-consulting .service-consulting-container .four-squares .square:hover .clickable-icon {
+.service-consulting
+  .service-consulting-container
+  .four-squares
+  .square:hover
+  .clickable-icon {
   color: white;
 }
-.service-consulting .service-consulting-container .four-squares .square .dashed-line {
+.service-consulting
+  .service-consulting-container
+  .four-squares
+  .square
+  .dashed-line {
   width: 50px;
   border-bottom: 2px solid #000;
   margin-bottom: 40px;
@@ -814,7 +823,11 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   font-weight: 700;
   font-size: 22px;
 }
-.service-consulting .service-consulting-container .four-squares .square .clickable-icon {
+.service-consulting
+  .service-consulting-container
+  .four-squares
+  .square
+  .clickable-icon {
   display: flex;
   align-self: flex-end;
   cursor: pointer;
@@ -898,7 +911,12 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   margin-bottom: 10px;
   font-size: 20px;
 }
-.why-choose-us-section .why-choose-us-left .icon-container .icon-content .text-content h3 {
+.why-choose-us-section
+  .why-choose-us-left
+  .icon-container
+  .icon-content
+  .text-content
+  h3 {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
   font-size: 22px;
@@ -1041,7 +1059,10 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   font-size: 45px;
   margin: 0;
 }
-.meetourteam-testimonial-container .meetourteam-section .ourteam-title .btn-yellow {
+.meetourteam-testimonial-container
+  .meetourteam-section
+  .ourteam-title
+  .btn-yellow {
   border: 1px solid black;
 }
 @media (max-width: 879px) {
@@ -1081,7 +1102,10 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
     width: 100%;
   }
 }
-.meetourteam-testimonial-container .meetourteam-section .all-members .member-image {
+.meetourteam-testimonial-container
+  .meetourteam-section
+  .all-members
+  .member-image {
   text-decoration: none;
 }
 .meetourteam-testimonial-container .meetourteam-section .all-members h3 {
@@ -1114,7 +1138,10 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   margin-top: 10px;
   margin-bottom: 24px;
 }
-.meetourteam-testimonial-container .meetourteam-section .five-dots span:nth-child(2) {
+.meetourteam-testimonial-container
+  .meetourteam-section
+  .five-dots
+  span:nth-child(2) {
   background-color: black;
 }
 .meetourteam-testimonial-container .testimonial-section {
@@ -1146,76 +1173,138 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
 .meetourteam-testimonial-container .testimonial-section .reviews-wrapper {
   margin-bottom: 100px;
 }
-.meetourteam-testimonial-container .testimonial-section .reviews-wrapper .review {
+.meetourteam-testimonial-container
+  .testimonial-section
+  .reviews-wrapper
+  .review {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 20px;
 }
 @media (min-width: 992px) {
-  .meetourteam-testimonial-container .testimonial-section .reviews-wrapper .review {
+  .meetourteam-testimonial-container
+    .testimonial-section
+    .reviews-wrapper
+    .review {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-.meetourteam-testimonial-container .testimonial-section .reviews-wrapper .review .review-item {
+.meetourteam-testimonial-container
+  .testimonial-section
+  .reviews-wrapper
+  .review
+  .review-item {
   display: flex;
   flex-direction: column-reverse;
   align-items: left;
 }
 @media (min-width: 992px) {
-  .meetourteam-testimonial-container .testimonial-section .reviews-wrapper .review .review-item {
+  .meetourteam-testimonial-container
+    .testimonial-section
+    .reviews-wrapper
+    .review
+    .review-item {
     flex-direction: column;
   }
 }
-.meetourteam-testimonial-container .testimonial-section .reviews-wrapper .review .five-stars {
+.meetourteam-testimonial-container
+  .testimonial-section
+  .reviews-wrapper
+  .review
+  .five-stars {
   margin-left: 35px;
   margin-right: 35px;
 }
-.meetourteam-testimonial-container .testimonial-section .reviews-wrapper .review .five-stars span {
+.meetourteam-testimonial-container
+  .testimonial-section
+  .reviews-wrapper
+  .review
+  .five-stars
+  span {
   font-size: 80%;
   color: #f94d1c;
 }
-.meetourteam-testimonial-container .testimonial-section .reviews-wrapper .review .five-stars p {
+.meetourteam-testimonial-container
+  .testimonial-section
+  .reviews-wrapper
+  .review
+  .five-stars
+  p {
   font-family: "Inter", sans-serif;
   margin-top: 20px;
   margin-bottom: 40px;
   font-size: 18px;
   line-height: 33px;
 }
-.meetourteam-testimonial-container .testimonial-section .reviews-wrapper .review .checked {
+.meetourteam-testimonial-container
+  .testimonial-section
+  .reviews-wrapper
+  .review
+  .checked {
   color: orange;
 }
-.meetourteam-testimonial-container .testimonial-section .reviews-wrapper .review .review-image-section {
+.meetourteam-testimonial-container
+  .testimonial-section
+  .reviews-wrapper
+  .review
+  .review-image-section {
   display: flex;
   align-items: center;
   margin-left: 35px;
 }
-.meetourteam-testimonial-container .testimonial-section .reviews-wrapper .review .review-image-section img {
+.meetourteam-testimonial-container
+  .testimonial-section
+  .reviews-wrapper
+  .review
+  .review-image-section
+  img {
   width: 60px;
   height: 60px;
   border-radius: 50%;
   margin-right: 10px;
 }
 @media (max-width: 991px) {
-  .meetourteam-testimonial-container .testimonial-section .reviews-wrapper .review .review-image-section img {
+  .meetourteam-testimonial-container
+    .testimonial-section
+    .reviews-wrapper
+    .review
+    .review-image-section
+    img {
     display: none;
   }
 }
-.meetourteam-testimonial-container .testimonial-section .reviews-wrapper .review .text-section {
+.meetourteam-testimonial-container
+  .testimonial-section
+  .reviews-wrapper
+  .review
+  .text-section {
   display: flex;
   flex-direction: column;
 }
-.meetourteam-testimonial-container .testimonial-section .reviews-wrapper .review h3 {
+.meetourteam-testimonial-container
+  .testimonial-section
+  .reviews-wrapper
+  .review
+  h3 {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
   font-size: 22px;
   margin: 0;
 }
-.meetourteam-testimonial-container .testimonial-section .reviews-wrapper .review p {
+.meetourteam-testimonial-container
+  .testimonial-section
+  .reviews-wrapper
+  .review
+  p {
   font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 400;
 }
-.meetourteam-testimonial-container .testimonial-section .reviews-wrapper .review .people-title {
+.meetourteam-testimonial-container
+  .testimonial-section
+  .reviews-wrapper
+  .review
+  .people-title {
   font-size: 16px;
   color: #f94d1c;
   margin: 0;
@@ -1296,7 +1385,11 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
 .article-news-section .article-wrapper .article-column .image-wrapper {
   position: relative;
 }
-.article-news-section .article-wrapper .article-column .image-wrapper .calendar-image {
+.article-news-section
+  .article-wrapper
+  .article-column
+  .image-wrapper
+  .calendar-image {
   position: absolute;
   top: 15px;
   left: 15px;
@@ -1627,7 +1720,10 @@ a:hover {
     width: 80%;
   }
 }
-.contact-page-white-bg .contact-info-wrapper .contact-info-details .contact-info-content {
+.contact-page-white-bg
+  .contact-info-wrapper
+  .contact-info-details
+  .contact-info-content {
   width: 324px;
   height: 107.5px;
   display: flex;
@@ -1635,24 +1731,43 @@ a:hover {
   gap: 20px;
 }
 @media (max-width: 576px) {
-  .contact-page-white-bg .contact-info-wrapper .contact-info-details .contact-info-content {
+  .contact-page-white-bg
+    .contact-info-wrapper
+    .contact-info-details
+    .contact-info-content {
     width: 80%;
   }
 }
-.contact-page-white-bg .contact-info-wrapper .contact-info-details .contact-info-content i.fa-solid {
+.contact-page-white-bg
+  .contact-info-wrapper
+  .contact-info-details
+  .contact-info-content
+  i.fa-solid {
   margin-top: 20px;
   margin-left: 15px;
 }
-.contact-page-white-bg .contact-info-wrapper .contact-info-details .contact-info-content p {
+.contact-page-white-bg
+  .contact-info-wrapper
+  .contact-info-details
+  .contact-info-content
+  p {
   margin: 0;
 }
-.contact-page-white-bg .contact-info-wrapper .contact-info-details .contact-info-content h3 {
+.contact-page-white-bg
+  .contact-info-wrapper
+  .contact-info-details
+  .contact-info-content
+  h3 {
   color: #191919;
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
   font-size: 22px;
 }
-.contact-page-white-bg .contact-info-wrapper .contact-info-details .contact-info-content .detail-paragraph {
+.contact-page-white-bg
+  .contact-info-wrapper
+  .contact-info-details
+  .contact-info-content
+  .detail-paragraph {
   font-family: "Inter", sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -1722,7 +1837,8 @@ a:hover {
   border-radius: 30px;
   border: 1px solid #ccc;
 }
-.form-content .contact-form input::-moz-placeholder, .form-content .contact-form textarea::-moz-placeholder {
+.form-content .contact-form input::-moz-placeholder,
+.form-content .contact-form textarea::-moz-placeholder {
   color: lightgray;
 }
 .form-content .contact-form input::placeholder,
@@ -1738,4 +1854,42 @@ a:hover {
   justify-content: center;
   margin-bottom: 100px;
   margin-top: 20px;
-} 
+}
+
+.news-images {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.article-info {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.article-info h2 {
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.article-info img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.article-info p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.article-info p.author,
+.article-info p.published,
+.article-info p.category {
+  font-style: italic;
+  color: #888;
+}

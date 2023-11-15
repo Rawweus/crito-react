@@ -1,8 +1,5 @@
-
 import React from "react";
 import NavSection from "../NavSection/NavSection";
-
-
 
 const Header = () => {
   return (

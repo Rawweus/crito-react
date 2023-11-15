@@ -2,11 +2,12 @@ import React from 'react'
 import "./NavSection.css";
 import Button from '../Generics/Button'
 import img_logo from '../../assets/images/logotype.svg'
+import { Link } from 'react-router-dom';
 
 const NavSection = () => {
   return (
     <div className="container">
-    <a href="index.html"><img src={img_logo} alt="crito logotype" /></a>
+    <Link to="/"><img src={img_logo} alt="crito logotype" /></Link>
     <button className="menu-bars"><i className="fa-solid fa-bars-staggered"></i></button>
     <div className="menu">
         <div className="top-menu">
@@ -33,12 +34,12 @@ const NavSection = () => {
         </div>
         <div className="main-menu">
             <nav>
-                <a className="active" href="index.html">Home</a>
-                <a href="services.html">Service</a>
-                <a href="news.html">News</a>
-                <a href="contact.html">Contact</a>
+                <Link to="/" className="active" href="/">Home</Link>
+                <Link to="/services" href="services">Service</Link>
+                <Link to="/news">News</Link>
+                <Link to="/contacts">Contact</Link>
             </nav>
-            <Button text="Login" url="/services/login" />
+            <Button type="yellow" text="Login" url="/login" />
         </div>
     </div>
 </div>
