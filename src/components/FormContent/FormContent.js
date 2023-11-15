@@ -11,16 +11,20 @@ const FormContent = () => {
   const validateForm = () => {
     let tempErrors = {};
     let isValid = true;
-
+/* 
+Nedan har jag gjort min validering på ett annat sätt än videoklippet. 
+Ville prova med en enklare variant och kände att den blev bra ändå. 
+Hoppas det är ok =)
+*/
     // Namnvalidering
     if (!name.trim()) {
-      tempErrors["name"] = "Name is required";
+      tempErrors["name"] = "Du måste fylla i ett namn";
       isValid = false;
     }
 
     // E-postvalidering
     if (!email.trim()) {
-      tempErrors["email"] = "Email is required";
+      tempErrors["email"] = "Du måste fylla i din mejladress";
       isValid = false;
     } else if (!/\S+@\S+\.\S+/.test(email)) {
       tempErrors["email"] = "Email is not valid";
@@ -29,7 +33,7 @@ const FormContent = () => {
 
     // Meddelandevalidering
     if (!message.trim()) {
-      tempErrors["message"] = "Message is required";
+      tempErrors["message"] = "Du måste fylla i ett meddelande";
       isValid = false;
     }
 
